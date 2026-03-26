@@ -8,6 +8,10 @@ The A320RMP is a small desktop radio management panel for use with Microsoft Fli
 ### Why was this made?
 While flying on VATSIM with MSFS2020, I realized it was very difficult to switch frequencies through the mouse and scroll wheel in the FlyByWire A32NX. So, here is my version of the A320 RMP.
 
+## Firmware
+This RMP uses [MobiFlight](https://mobiflight.com) for its firmware and programming with a RP2040.<br>
+**NOTE: RP2350/Pi Pico 2 will NOT work with MobiFlight. Only the RP2040 or Pi Pico 1 is compatible.**
+
 ## Pictures
 ### Schematic
 `img/schematic.png`<br><img src="img/schematic.png" alt="Schematic" height=700>
@@ -48,16 +52,20 @@ While flying on VATSIM with MSFS2020, I realized it was very difficult to switch
 | 6x6mm Button | Button C49234152, min 20 | 20 | 0.61 | [Link](https://www.lcsc.com/product-detail/C49234152.html) | LCSC |
 | 10uF C0603 | Capacitor C1591, min 20 | 20 | 0.35 | [Link](https://www.lcsc.com/product-detail/C96446.html) | LCSC |
 | 0.1uF C0603 | Capacitor C1591, min 100 | 100 | 0.28 | [Link](https://www.lcsc.com/product-detail/C1591.html) | LCSC |
-_plus Applicable Tax, Fees, and Shipping_
+_plus Applicable Tax, Fees, Shipping, and Tools_
+
 ## A320RMP wouldn't be possible without:
 * VATSIM, https://vatsim.net
+* MobiFlight, https://mobiflight.com
 * FlyByWire Simulations, https://flybywiresim.com
-* Oakland vARTCC, https://oakartcc.org
 * Hack Club, https://hackclub.com
-* Stasis, https://stasis.hackclub,com
+* Stasis, https://stasis.hackclub.com
+
+### A shoutout to:
+* Oakland vARTCC, https://oakartcc.org
+
 ### And most importantly,
 * @witherman3000, https://witherman3000.com
 
-
-Thanks for looking through my project!<br><br>
-`5NN THX FER RPRT DE KO6LVM SK CL`
+<br>Thanks for looking through my project!<br>
+`5NN TNX FER QSO DE KO6LVM SK CL`
