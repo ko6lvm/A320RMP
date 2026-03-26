@@ -32,8 +32,8 @@ This RMP uses [MobiFlight](https://mobiflight.com) for its firmware and programm
 `img/final3.png`<br><img src="img/final3.png" alt="Final 3" width="600"/><br>
 
 ## BoM (General)
-_Stasis BoM_ (`bom/stasis.csv`) _includes shipping, tax, fees, and required tools._<br>
-_Below: General BoM_ (`bom/general.csv`)
+_Stasis BoM_ (`bom-stasis.csv`) _includes shipping, tax, fees, and required tools._<br>
+_Below: General BoM_ (`bom-general.csv`)
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Waveshare RP2040+ | Pico USB-C | 1 | 14.99 | [Link](https://www.amazon.com/RP2040-Plus-High-Performance-Microcontroller-Compatible-Pre-soldered/dp/B09KZFJTV9) | Amazon |
