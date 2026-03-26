@@ -10,11 +10,9 @@ While flying on VATSIM with MSFS2020, I realized it was very difficult to switch
 
 ## Pictures
 ### Schematic
-`img/schematic.png`
-![A320RMPv1Schematic](https://stasis.hackclub-assets.com/images/1774469948065-c5vn6g.png)
-### PCB Only
-`img/pcb.png`
-![A320RMPv1PCB2DTop](https://stasis.hackclub-assets.com/images/1774470086891-i2ej90.png)
+`img/schematic.png`<br><img src="img/schematic.png" alt="Schematic" height=700>
+### PCB
+`img/pcb.png` - `pcb/A320RMPv1FinalGerber.zip`<br><img src="img/pcb.png" alt="PCB" height=700>
 ### CAD / Models
 #### Knob
 `img/knob.png` - `cad/knob.step`<br><img src="img/knob.png" alt="Knob" height="300"><br>
@@ -30,8 +28,27 @@ While flying on VATSIM with MSFS2020, I realized it was very difficult to switch
 `img/final3.png`<br><img src="img/final3.png" alt="Final 3" width="600"/><br>
 
 ## BoM
-WIP - Check Stasis
-
+| Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Waveshare RP2040+ | Pico USB-C | 1 | 14.99 | [Link](https://www.amazon.com/RP2040-Plus-High-Performance-Microcontroller-Compatible-Pre-soldered/dp/B09KZFJTV9) | Amazon |
+| SMD Stencil | Soldering | 1 | 7.11 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCB | 5 minimum | 5 | 9.00 | [Link](https://jlcpcb.com) | JLCPCB |
+| Flux 30g | Paste | 1 | 9.99 | [Link](https://www.amazon.com/gp/product/B0D3H8NZLP) | Amazon |
+| Solder Paste 30g | Sn63/Pb37 | 1 | 12.99 | [Link](https://www.amazon.com/gp/product/B0BH4HRWGX) | Amazon |
+| Female Header Pins | Header C7499336 | 5 | 1.20 | [Link](https://www.lcsc.com/product-detail/C7499336.html) | LCSC |
+| SPST Switch | Switch C1788492, THT | 2 | 1.26 | [Link](https://www.lcsc.com/product-detail/C1788492.html) | LCSC |
+| Multiplexer IC | Multiplexer C6525 | 2 | 1.42 | [Link](https://www.lcsc.com/product-detail/C6525.html) | LCSC |
+| 7seg CT IC | 7seg Controller IC C6705351 | 4 | 6.28 | [Link](https://www.lcsc.com/product-detail/C6705351.html) | LCSC |
+| Logic Level IC | TI Logic Lvl C155176, 3.3V to 5V | 2 | 0.66 | [Link](https://www.lcsc.com/product-detail/C155176.html) | LCSC |
+| Green L0603 | LED C19273151, min 100 | 100 | 0.60 | [Link](https://www.lcsc.com/product-detail/C19273151.html) | LCSC |
+| Rotary Encoder | Rot Enc C470754, THT | 3 | 6.24 | [Link](https://www.lcsc.com/product-detail/C470754.html) | LCSC |
+| 22Kohm R0603 | Resistor C2907015, min 100 | 100 | 0.10 | [Link](https://www.lcsc.com/product-detail/C2907015.html) | LCSC |
+| 220ohm R0603 | Resistor C22962, min 100 | 100 | 0.13 | [Link](https://www.lcsc.com/product-detail/C22962.html) | LCSC |
+| 6digit 7segment Display | Display C47471 | 3 | 5.20 | [Link](https://www.lcsc.com/product-detail/C47471.html) | LCSC |
+| 6x6mm Button | Button C49234152, min 20 | 20 | 0.61 | [Link](https://www.lcsc.com/product-detail/C49234152.html) | LCSC |
+| 10uF C0603 | Capacitor C1591, min 20 | 20 | 0.35 | [Link](https://www.lcsc.com/product-detail/C96446.html) | LCSC |
+| 0.1uF C0603 | Capacitor C1591, min 100 | 100 | 0.28 | [Link](https://www.lcsc.com/product-detail/C1591.html) | LCSC |
+_plus Applicable Tax, Fees, and Shipping_
 ## A320RMP wouldn't be possible without:
 * VATSIM, https://vatsim.net
 * FlyByWire Simulations, https://flybywiresim.com
@@ -42,5 +59,5 @@ WIP - Check Stasis
 * @witherman3000, https://witherman3000.com
 
 
-Thanks for looking through my project!
+Thanks for looking through my project!<br><br>
 `5NN THX FER RPRT DE KO6LVM SK CL`
