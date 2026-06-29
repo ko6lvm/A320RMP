@@ -2,9 +2,12 @@
 ## A320 Radio Management Panel
 _Made for MSFS2020, MobiFlight, RP2040, and the FlyByWire A32NX_
 
-> [!WARNING]
-> Unfortunatly, the buttons are wired incorrectly.
-> Please do not replicate this project with the supplied .ZIP unless you'd like to spend two hours with a knife cutting traces.
+## Build
+Build Demo - https://youtu.be/B498MnIRDuQ  
+<img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/1a09ef1e-e997-4a16-9b36-f73dccd9b8f7" />
+<img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/a6e1fd58-0248-4d9f-b227-98613dd7561d" />
+<img width="3072" height="4080" alt="image" src="https://github.com/user-attachments/assets/b965a4b5-97cb-42d1-a8bd-b09f2b1e045a" />
+
 
 ### What is this?
 The A320RMP is a small desktop radio management panel for use with Microsoft Flight Simulator and MobiFlight, and is based off the Raspberry Pi RP2040 platform.
